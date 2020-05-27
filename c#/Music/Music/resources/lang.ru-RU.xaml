@@ -1,0 +1,85 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+					xmlns:v="clr-namespace:System;assembly=mscorlib">
+    <v:String x:Key="admin_window_play">Играть</v:String>
+    <v:String x:Key="admin_window_pause">Пауза</v:String>
+    <v:String x:Key="admin_window_stop">Стоп</v:String>
+    <v:String x:Key="admin_window_delete_selected_user">Удалить выбранного пользователя</v:String>
+    <v:String x:Key="admin_window_delete_selected_song">Удалить выбранную песню</v:String>
+    <v:String x:Key="admin_window_create_song">Создать песню</v:String>
+    <v:String x:Key="admin_window_update_selected_song">Изменить выбранную песню</v:String>
+    <v:String x:Key="admin_window_play_selected_song">Проиграть выбранную песню</v:String>
+    <v:String x:Key="admin_window_see_description">Просмотреть описание</v:String>
+    <v:String x:Key="admin_window_dialog">Диалоги</v:String>
+    <v:String x:Key="admin_window_logout">Выйти</v:String>
+    <v:String x:Key="admin_window_id">ИД</v:String>
+    <v:String x:Key="admin_window_login">Логин</v:String>
+
+    <v:String x:Key="casual_window_play">Играть</v:String>
+    <v:String x:Key="casual_window_pause">Пауза</v:String>
+    <v:String x:Key="casual_window_stop">Стоп</v:String>
+    <v:String x:Key="casual_window_name">Имя</v:String>
+    <v:String x:Key="casual_window_type">Тип</v:String>
+    <v:String x:Key="casual_window_author_name">Имя автора</v:String>
+    <v:String x:Key="casual_window_album">Альбом</v:String>
+    <v:String x:Key="casual_window_duraction">Продолжительность</v:String>
+    <v:String x:Key="casual_window_description">Описание</v:String>
+    <v:String x:Key="casual_window_play_selected_song">Проиграть выбранную музыку</v:String>
+    <v:String x:Key="casual_window_logout">Выйти</v:String>
+
+    <v:String x:Key="create_play_list_window_name">Имя</v:String>
+    <v:String x:Key="create_play_list_window_decription">Описание</v:String>
+    <v:String x:Key="create_play_list_window_update">Изменить</v:String>
+    <v:String x:Key="create_play_list_window_create">Создать</v:String>
+    <v:String x:Key="create_play_list_window_back">Назад</v:String>
+
+    <v:String x:Key="create_song_window_music_description">Описание</v:String>
+    <v:String x:Key="create_song_window_music_type">Тип</v:String>
+    <v:String x:Key="create_song_window_author_name">Имя автора</v:String>
+    <v:String x:Key="create_song_window_realise_date">Дата содания</v:String>
+    <v:String x:Key="create_song_window_album">Альбом</v:String>
+    <v:String x:Key="create_song_window_back">Назад</v:String>
+    <v:String x:Key="create_song_window_update">Изменить</v:String>
+    <v:String x:Key="create_song_window_create">Создать</v:String>
+
+    <v:String x:Key="dialogs_window_add_in_dialogs">Добавить в диалоги</v:String>
+    <v:String x:Key="dialogs_window_send">Отправить</v:String>
+    <v:String x:Key="dialogs_window_clear_dialog_with_selected">Очистить диалог с выбранным</v:String>
+    <v:String x:Key="dialogs_window_back">Назад</v:String>
+
+    <v:String x:Key="register_user_window_play">Играть</v:String>
+    <v:String x:Key="register_user_window_pause">Пауза</v:String>
+    <v:String x:Key="register_user_window_stop">Стоп</v:String>
+    <v:String x:Key="register_user_window_name">Имя</v:String>
+    <v:String x:Key="register_user_window_type">Тип</v:String>
+    <v:String x:Key="register_user_window_author_name">Имя автора</v:String>
+    <v:String x:Key="register_user_window_album">Альбом</v:String>
+    <v:String x:Key="register_user_window_duraction">Продолжительность</v:String>
+    <v:String x:Key="register_user_window_description">Описание</v:String>
+    <v:String x:Key="register_user_window_send_comment">Комментарий</v:String>
+    <v:String x:Key="register_user_window_add_selected_song_in_play_lists">Добавить выбранную песню в плейлист</v:String>
+    <v:String x:Key="register_user_window_delete_selected_play_list">Удалить выбранный плейлист</v:String>
+    <v:String x:Key="register_user_window_delete_selected_song_from_play_list">Удалить выбранную песню из плейлиста</v:String>
+    <v:String x:Key="register_user_window_show_all_songs">Показать все пенси</v:String>
+    <v:String x:Key="register_user_window_create_play_list">Создать плейлист</v:String>
+    <v:String x:Key="register_user_window_update_selected_play_list">Изменить выбранный плейлист</v:String>
+    <v:String x:Key="register_user_window_play_selected_song">Проиграть выбранную песню </v:String>
+    <v:String x:Key="register_user_window_dialogs">Диалоги</v:String>
+    <v:String x:Key="register_user_window_logout">Выйти</v:String>
+
+    <v:String x:Key="registration_name">Имя</v:String>
+    <v:String x:Key="registration_password">Пароль</v:String>
+    <v:String x:Key="registration_confirm_password">Подтверждение пароля</v:String>
+    <v:String x:Key="registration_back">Назад</v:String>
+    <v:String x:Key="registration_registrate">Зарегистрировать</v:String>
+
+    <v:String x:Key="welcome_login">Войти</v:String>
+    <v:String x:Key="welcome_password">Пароль</v:String>
+    <v:String x:Key="welcome_enter_with_out_registration">Зайти без регистрации</v:String>
+    <v:String x:Key="welcome_registration">Зарегистрироваться</v:String>
+    
+    <v:String x:Key="lang">Язык</v:String>
+
+
+
+</ResourceDictionary>
