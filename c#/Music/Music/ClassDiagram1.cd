@@ -1,0 +1,1793 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="Music.command.CreateComment" BaseTypeListCollapsed="true">
+    <Position X="49.75" Y="11.5" Width="1.5" />
+    <AssociationLine Name="commentService" Type="Music.service.ICommentService" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="51.25" Y="12.052" />
+        <Point X="51.75" Y="12.052" />
+        <Point X="51.75" Y="16.5" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>command\create\CreateComment.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="commentService" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Music.command.CreateMessage" BaseTypeListCollapsed="true">
+    <Position X="36.25" Y="11" Width="1.5" />
+    <AssociationLine Name="userMessageService" Type="Music.service.IMessageService" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="37.75" Y="11.552" />
+        <Point X="38.188" Y="11.552" />
+        <Point X="38.188" Y="16.5" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>command\create\CreateMessage.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="userMessageService" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Music.command.CreatePlayList" BaseTypeListCollapsed="true">
+    <Position X="38.25" Y="9" Width="1.5" />
+    <AssociationLine Name="playListService" Type="Music.service.IPlayListService" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="39.75" Y="9.552" />
+        <Point X="40.5" Y="9.552" />
+        <Point X="40.5" Y="16.5" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>command\create\CreatePlayList.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="playListService" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Music.command.CreatePlayListSong" BaseTypeListCollapsed="true">
+    <Position X="41" Y="9.25" Width="1.5" />
+    <AssociationLine Name="playListSongService" Type="Music.service.IPlayListSongService" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="42.5" Y="9.875" />
+        <Point X="42.688" Y="9.875" />
+        <Point X="42.688" Y="16.5" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>command\create\CreatePlayListSong.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="playListSongService" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Music.command.CreateSong" BaseTypeListCollapsed="true">
+    <Position X="43.25" Y="10.5" Width="1.5" />
+    <AssociationLine Name="songService" Type="Music.service.ISongService" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="44.75" Y="11.187" />
+        <Point X="44.938" Y="11.187" />
+        <Point X="44.938" Y="16.5" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>command\create\CreateSong.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="songService" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Music.command.CreateUser" BaseTypeListCollapsed="true">
+    <Position X="47.25" Y="7" Width="1.5" />
+    <AssociationLine Name="userService" Type="Music.service.IUserService" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="48.75" Y="7.552" />
+        <Point X="49.25" Y="7.552" />
+        <Point X="49.25" Y="16.5" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAASAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>command\create\CreateUser.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="userService" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Music.command.CreateUserDialogs" BaseTypeListCollapsed="true">
+    <Position X="45" Y="6.5" Width="1.5" />
+    <AssociationLine Name="dialogService" Type="Music.service.IDialogService" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="46.5" Y="6.844" />
+        <Point X="47.042" Y="6.844" Type="JumpStart" />
+        <Point X="47.208" Y="6.844" Type="JumpEnd" />
+        <Point X="49.167" Y="6.844" Type="JumpStart" />
+        <Point X="49.333" Y="6.844" Type="JumpEnd" />
+        <Point X="51.667" Y="6.844" Type="JumpStart" />
+        <Point X="51.833" Y="6.844" Type="JumpEnd" />
+        <Point X="54.188" Y="6.844" />
+        <Point X="54.188" Y="16.5" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="userMessageService" Type="Music.service.IUserMessageService" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="46.5" Y="7.255" />
+        <Point X="47.125" Y="7.255" />
+        <Point X="47.125" Y="16.5" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAQEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>command\create\CreateUserDialogs.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="dialogService" />
+      <Field Name="userMessageService" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Music.command.CreateUserMessage" BaseTypeListCollapsed="true">
+    <Position X="45.25" Y="12.75" Width="1.5" />
+    <AssociationLine Name="userMessageService" Type="Music.service.IUserMessageService" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="46.75" Y="13.302" />
+        <Point X="47.125" Y="13.302" />
+        <Point X="47.125" Y="16.5" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>command\create\CreateUserMessage.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="userMessageService" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Music.command.DeleteMessage" BaseTypeListCollapsed="true">
+    <Position X="36.25" Y="12.5" Width="1.5" />
+    <AssociationLine Name="messageService" Type="Music.service.IMessageService" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="37.75" Y="13.052" />
+        <Point X="38.188" Y="13.052" />
+        <Point X="38.188" Y="16.5" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>command\delete\DeleteMessage.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="messageService" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Music.command.DeleteMessageConclusionTime" BaseTypeListCollapsed="true">
+    <Position X="34" Y="11.25" Width="1.5" />
+    <AssociationLine Name="messageConclusionTimeService" Type="Music.service.IMessageConclusionTimeService" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="35.5" Y="11.802" />
+        <Point X="35.938" Y="11.802" />
+        <Point X="35.938" Y="16.5" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>command\delete\DeleteMessageConclusionTime.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="messageConclusionTimeService" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Music.command.DeleteUser" BaseTypeListCollapsed="true">
+    <Position X="39.75" Y="4.25" Width="1.5" />
+    <AssociationLine Name="commentService" Type="Music.service.ICommentService" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="41.25" Y="4.531" />
+        <Point X="51.75" Y="4.531" />
+        <Point X="51.75" Y="16.5" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="messageConclusionTimeService" Type="Music.service.IMessageConclusionTimeService" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="39.75" Y="4.802" />
+        <Point X="35.938" Y="4.802" />
+        <Point X="35.938" Y="16.5" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="messageService" Type="Music.service.IMessageService" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="39.75" Y="5.109" />
+        <Point X="38.188" Y="5.109" />
+        <Point X="38.188" Y="16.5" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="playListService" Type="Music.service.IPlayListService" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="40.5" Y="5.353" />
+        <Point X="40.5" Y="16.5" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="userMessageService" Type="Music.service.IUserMessageService" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="41.25" Y="4.875" />
+        <Point X="47.125" Y="4.875" />
+        <Point X="47.125" Y="16.5" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="userService" Type="Music.service.IUserService" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="41.25" Y="4.812" />
+        <Point X="49.25" Y="4.812" />
+        <Point X="49.25" Y="16.5" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABSEAAAAAAAAAAIAEAAAAAAAAAAACAA=</HashCode>
+      <FileName>command\delete\DeleteUser.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="commentService" />
+      <Field Name="messageConclusionTimeService" />
+      <Field Name="messageService" />
+      <Field Name="playListService" />
+      <Field Name="userMessageService" />
+      <Field Name="userService" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Music.command.Error" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.75" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>command\other\Error.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Music.command.GetAllRegisteredUsers" BaseTypeListCollapsed="true">
+    <Position X="47.25" Y="10.25" Width="1.5" />
+    <AssociationLine Name="userService" Type="Music.service.IUserService" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="48.75" Y="10.802" />
+        <Point X="49.25" Y="10.802" />
+        <Point X="49.25" Y="16.5" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAASAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>command\other\GetAllRegisteredUsers.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="userService" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Music.command.IsUserExist" BaseTypeListCollapsed="true">
+    <Position X="47.25" Y="8.75" Width="1.5" />
+    <AssociationLine Name="userService" Type="Music.service.IUserService" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="48.75" Y="9.302" />
+        <Point X="49.238" Y="9.302" />
+        <Point X="49.238" Y="14.042" />
+        <Point X="49.25" Y="14.042" />
+        <Point X="49.25" Y="16.5" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAASAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>command\other\IsUserExist.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="userService" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Music.command.IsUserRegistered" BaseTypeListCollapsed="true">
+    <Position X="47.25" Y="11.75" Width="1.5" />
+    <AssociationLine Name="userService" Type="Music.service.IUserService" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="48.75" Y="12.438" />
+        <Point X="49.25" Y="12.438" />
+        <Point X="49.25" Y="16.5" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAASAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>command\other\IsUserRegistered.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="userService" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Music.command.ReadMessageById" BaseTypeListCollapsed="true">
+    <Position X="36" Y="14" Width="2" />
+    <AssociationLine Name="messageService" Type="Music.service.IMessageService" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="38" Y="14.625" />
+        <Point X="38.188" Y="14.625" />
+        <Point X="38.188" Y="16.5" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>command\read\ReadMessageById.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="messageService" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Music.command.ReadUserByName" BaseTypeListCollapsed="true">
+    <Position X="47.25" Y="13.25" Width="1.5" />
+    <AssociationLine Name="userService" Type="Music.service.IUserService" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="48.75" Y="13.802" />
+        <Point X="49.25" Y="13.802" />
+        <Point X="49.25" Y="16.5" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAASAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>command\read\ReadUserByName.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="userService" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Music.command.create.CreateGoogleSong" BaseTypeListCollapsed="true">
+    <Position X="31.5" Y="12.75" Width="1.5" />
+    <AssociationLine Name="googleSongService" Type="Music.service.IGoogleSongService" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="33" Y="13.302" />
+        <Point X="33.688" Y="13.302" />
+        <Point X="33.688" Y="16.5" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>command\create\CreateGoogleSong.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="googleSongService" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Music.command.create.CreateMessageConclusionTime" BaseTypeListCollapsed="true">
+    <Position X="34" Y="9.75" Width="1.5" />
+    <AssociationLine Name="messageConclusionTimeService" Type="Music.service.IMessageConclusionTimeService" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="35.5" Y="10.302" />
+        <Point X="35.938" Y="10.302" />
+        <Point X="35.938" Y="16.5" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>command\create\CreateMessageConclusionTime.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="messageConclusionTimeService" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Music.command.create.CreateUserDialog" BaseTypeListCollapsed="true">
+    <Position X="45" Y="5" Width="1.5" />
+    <AssociationLine Name="dialogService" Type="Music.service.IDialogService" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="46.5" Y="5.552" />
+        <Point X="47.042" Y="5.552" Type="JumpStart" />
+        <Point X="47.208" Y="5.552" Type="JumpEnd" />
+        <Point X="49.167" Y="5.552" Type="JumpStart" />
+        <Point X="49.333" Y="5.552" Type="JumpEnd" />
+        <Point X="51.667" Y="5.552" Type="JumpStart" />
+        <Point X="51.833" Y="5.552" Type="JumpEnd" />
+        <Point X="54.188" Y="5.552" />
+        <Point X="54.188" Y="16.5" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="userMessageService" Type="Music.service.IUserMessageService" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="46.5" Y="5.859" />
+        <Point X="47.125" Y="5.859" />
+        <Point X="47.125" Y="16.5" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAQEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>command\create\CreateUserDialog.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="dialogService" />
+      <Field Name="userMessageService" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Music.command.delete.DeleteComment" BaseTypeListCollapsed="true">
+    <Position X="49.75" Y="13" Width="1.5" />
+    <AssociationLine Name="commentService" Type="Music.service.ICommentService" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="51.25" Y="13.552" />
+        <Point X="51.75" Y="13.552" />
+        <Point X="51.75" Y="16.5" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>command\delete\DeleteComment.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="commentService" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Music.command.delete.DeletePlayList" BaseTypeListCollapsed="true">
+    <Position X="38.25" Y="10.5" Width="1.5" />
+    <AssociationLine Name="playListService" Type="Music.service.IPlayListService" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="39.75" Y="11.052" />
+        <Point X="40.5" Y="11.052" />
+        <Point X="40.5" Y="16.5" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>command\delete\DeletePlayList.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="playListService" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Music.command.delete.DeletePlayListSong" BaseTypeListCollapsed="true">
+    <Position X="41" Y="10.75" Width="1.5" />
+    <AssociationLine Name="playListSongService" Type="Music.service.IPlayListSongService" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="42.5" Y="11.437" />
+        <Point X="42.688" Y="11.437" />
+        <Point X="42.688" Y="16.5" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>command\delete\DeletePlayListSong.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="playListSongService" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Music.command.delete.DeleteSong" BaseTypeListCollapsed="true">
+    <Position X="31.5" Y="8" Width="1.5" />
+    <AssociationLine Name="googleSongService" Type="Music.service.IGoogleSongService" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="33" Y="8.552" />
+        <Point X="33.688" Y="8.552" />
+        <Point X="33.688" Y="16.5" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="songService" Type="Music.service.ISongService" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="33" Y="8.5" />
+        <Point X="35.854" Y="8.5" Type="JumpStart" />
+        <Point X="36.021" Y="8.5" Type="JumpEnd" />
+        <Point X="38.104" Y="8.5" Type="JumpStart" />
+        <Point X="38.271" Y="8.5" Type="JumpEnd" />
+        <Point X="40.417" Y="8.5" Type="JumpStart" />
+        <Point X="40.583" Y="8.5" Type="JumpEnd" />
+        <Point X="44.938" Y="8.5" />
+        <Point X="44.938" Y="16.5" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>ACAEAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>command\delete\DeleteSong.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="googleSongService" />
+      <Field Name="songService" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Music.command.delete.DeleteUserDialog" BaseTypeListCollapsed="true">
+    <Position X="36.25" Y="8.5" Width="1.5" />
+    <AssociationLine Name="messageService" Type="Music.service.IMessageService" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="37.75" Y="9.239" />
+        <Point X="38.188" Y="9.239" />
+        <Point X="38.188" Y="16.5" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="userMessageService" Type="Music.service.IUserMessageService" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="37.75" Y="8.846" />
+        <Point X="38.104" Y="8.846" Type="JumpStart" />
+        <Point X="38.271" Y="8.846" Type="JumpEnd" />
+        <Point X="40.417" Y="8.846" Type="JumpStart" />
+        <Point X="40.583" Y="8.846" Type="JumpEnd" />
+        <Point X="44.854" Y="8.846" Type="JumpStart" />
+        <Point X="45.021" Y="8.846" Type="JumpEnd" />
+        <Point X="47.125" Y="8.846" />
+        <Point X="47.125" Y="16.5" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABQEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>command\delete\DeleteUserDialog.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="messageService" />
+      <Field Name="userMessageService" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Music.command.delete.DeleteUserMessage" BaseTypeListCollapsed="true">
+    <Position X="45.25" Y="14.25" Width="1.5" />
+    <AssociationLine Name="userMessageService" Type="Music.service.IUserMessageService" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="46.75" Y="14.937" />
+        <Point X="47.125" Y="14.937" />
+        <Point X="47.125" Y="16.5" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>command\delete\DeleteUserMessage.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="userMessageService" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Music.command.other.FindMessageConclusionByUsersIds" BaseTypeListCollapsed="true">
+    <Position X="34" Y="12.75" Width="1.5" />
+    <AssociationLine Name="messageConclusionTimeService" Type="Music.service.IMessageConclusionTimeService" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="35.5" Y="13.312" />
+        <Point X="35.938" Y="13.312" />
+        <Point X="35.938" Y="16.5" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>command\other\FindMessageConclusionByUsersIds.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="messageConclusionTimeService" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Music.command.other.GetAllCommentsBySongId" BaseTypeListCollapsed="true">
+    <Position X="49.75" Y="14.5" Width="1.5" />
+    <AssociationLine Name="commentService" Type="Music.service.ICommentService" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="51.25" Y="15.062" />
+        <Point X="51.75" Y="15.062" />
+        <Point X="51.75" Y="16.5" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>command\other\GetAllCommentsBySongId.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="commentService" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Music.command.other.GetAllPlayListsByUserId" BaseTypeListCollapsed="true">
+    <Position X="38.25" Y="13.25" Width="1.5" />
+    <AssociationLine Name="playListService" Type="Music.service.IPlayListService" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="39.75" Y="13.812" />
+        <Point X="40.5" Y="13.812" />
+        <Point X="40.5" Y="16.5" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>command\other\GetAllPlayListsByUserId.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="playListService" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Music.command.other.GetAllSong" BaseTypeListCollapsed="true">
+    <Position X="43.25" Y="12" Width="1.5" />
+    <AssociationLine Name="songService" Type="Music.service.ISongService" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="44.75" Y="12.687" />
+        <Point X="44.938" Y="12.687" />
+        <Point X="44.938" Y="16.5" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>command\other\GetAllSong.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="songService" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Music.command.other.GetAllSongsByPlayListId" BaseTypeListCollapsed="true">
+    <Position X="41" Y="12.25" Width="1.5" />
+    <AssociationLine Name="playListSongService" Type="Music.service.IPlayListSongService" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="42.5" Y="13" />
+        <Point X="42.688" Y="13" />
+        <Point X="42.688" Y="16.5" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>command\other\GetAllSongsByPlayListId.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="playListSongService" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Music.command.other.SendNotificationForUsers" BaseTypeListCollapsed="true">
+    <Position X="34" Y="7.25" Width="1.5" />
+    <AssociationLine Name="messageConclusionTimeService" Type="Music.service.IMessageConclusionTimeService" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="35.5" Y="7.487" />
+        <Point X="35.938" Y="7.487" />
+        <Point X="35.938" Y="16.5" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="messageService" Type="Music.service.IMessageService" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="35.5" Y="7.989" />
+        <Point X="35.854" Y="7.989" Type="JumpStart" />
+        <Point X="36.021" Y="7.989" Type="JumpEnd" />
+        <Point X="38.188" Y="7.989" />
+        <Point X="38.188" Y="16.5" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="useMessageService" Type="Music.service.IUserMessageService" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="35.5" Y="8.192" />
+        <Point X="35.854" Y="8.192" Type="JumpStart" />
+        <Point X="36.021" Y="8.192" Type="JumpEnd" />
+        <Point X="38.104" Y="8.192" Type="JumpStart" />
+        <Point X="38.271" Y="8.192" Type="JumpEnd" />
+        <Point X="39.954" Y="8.192" Type="JumpStart" />
+        <Point X="40.121" Y="8.192" Type="JumpEnd" />
+        <Point X="40.417" Y="8.192" Type="JumpStart" />
+        <Point X="40.583" Y="8.192" Type="JumpEnd" />
+        <Point X="47.125" Y="8.192" />
+        <Point X="47.125" Y="16.5" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="userService" Type="Music.service.IUserService" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="35.5" Y="7.786" />
+        <Point X="35.854" Y="7.786" Type="JumpStart" />
+        <Point X="36.021" Y="7.786" Type="JumpEnd" />
+        <Point X="38.104" Y="7.786" Type="JumpStart" />
+        <Point X="38.271" Y="7.786" Type="JumpEnd" />
+        <Point X="40.038" Y="7.786" />
+        <Point X="40.038" Y="8.344" />
+        <Point X="40.417" Y="8.344" Type="JumpStart" />
+        <Point X="40.583" Y="8.344" Type="JumpEnd" />
+        <Point X="47.042" Y="8.344" Type="JumpStart" />
+        <Point X="47.208" Y="8.344" Type="JumpEnd" />
+        <Point X="49.25" Y="8.344" />
+        <Point X="49.25" Y="16.5" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEBSAAAAAAAAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>command\other\SendNotificationForUsers.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="messageConclusionTimeService" />
+      <Field Name="messageService" />
+      <Field Name="useMessageService" />
+      <Field Name="userService" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Music.command.read.ReadGoogleSongById" BaseTypeListCollapsed="true">
+    <Position X="31.5" Y="14.25" Width="1.5" />
+    <AssociationLine Name="googleSongService" Type="Music.service.IGoogleSongService" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="33" Y="14.812" />
+        <Point X="33.688" Y="14.812" />
+        <Point X="33.688" Y="16.5" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>command\read\ReadGoogleSongById.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="googleSongService" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Music.command.read.ReadPlayListByName" BaseTypeListCollapsed="true">
+    <Position X="38.25" Y="12" Width="1.5" />
+    <AssociationLine Name="playListService" Type="Music.service.IPlayListService" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="39.75" Y="12.562" />
+        <Point X="40.5" Y="12.562" />
+        <Point X="40.5" Y="16.5" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>command\read\ReadPlayListByName.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="playListService" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Music.command.read.ReadPlayListSongBySongAndPlayListIds" BaseTypeListCollapsed="true">
+    <Position X="41" Y="13.75" Width="1.5" />
+    <AssociationLine Name="playListSongService" Type="Music.service.IPlayListSongService" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="42.5" Y="14.375" />
+        <Point X="42.688" Y="14.375" />
+        <Point X="42.688" Y="16.5" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>command\read\ReadPlayListSongBySongAndPlayListIds.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="playListSongService" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Music.command.read.ReadUserById" BaseTypeListCollapsed="true">
+    <Position X="47.25" Y="14.75" Width="1.5" />
+    <AssociationLine Name="userService" Type="Music.service.IUserService" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="48.75" Y="15.25" />
+        <Point X="49.25" Y="15.25" />
+        <Point X="49.25" Y="16.5" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAASAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>command\read\ReadUserById.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="userService" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Music.command.update.UpdateMessageConclusionTime" BaseTypeListCollapsed="true">
+    <Position X="34" Y="14.25" Width="1.5" />
+    <AssociationLine Name="messageConclusionTimeService" Type="Music.service.IMessageConclusionTimeService" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="35.5" Y="14.875" />
+        <Point X="35.938" Y="14.875" />
+        <Point X="35.938" Y="16.5" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>command\update\UpdateMessageConclusionTime.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="messageConclusionTimeService" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.229" />
+  </Class>
+  <Class Name="Music.command.update.UpdatePlayList" BaseTypeListCollapsed="true">
+    <Position X="38.25" Y="14.75" Width="1.5" />
+    <AssociationLine Name="playListService" Type="Music.service.IPlayListService" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="39.75" Y="15.312" />
+        <Point X="40.5" Y="15.312" />
+        <Point X="40.5" Y="16.5" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>command\update\UpdatePlayList.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="playListService" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Music.command.update.UpdateSong" BaseTypeListCollapsed="true">
+    <Position X="43.25" Y="13.5" Width="1.5" />
+    <AssociationLine Name="songService" Type="Music.service.ISongService" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="44.75" Y="14.062" />
+        <Point X="44.938" Y="14.062" />
+        <Point X="44.938" Y="16.5" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>command\update\UpdateSong.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="songService" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Music.controller.CommandProvider">
+    <Position X="16" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAAAABABAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>controller\CommandProvider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Music.controller.Controller">
+    <Position X="16" Y="3.25" Width="1.5" />
+    <AssociationLine Name="commandProvider" Type="Music.controller.CommandProvider" FixedToPoint="true">
+      <Path>
+        <Point X="16.25" Y="3.25" />
+        <Point X="16.25" Y="2.632" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>controller\Controller.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="commandProvider" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Music.dao.DaoFactory">
+    <Position X="42" Y="40" Width="1.5" />
+    <AssociationLine Name="commentDao" Type="Music.dao.ICommentDao" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="42" Y="43" />
+        <Point X="35.438" Y="43" />
+        <Point X="35.438" Y="35.175" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="googleSongDao" Type="Music.dao.IGoogleSongDao" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="42" Y="41.739" />
+        <Point X="37.625" Y="41.739" />
+        <Point X="37.625" Y="35.175" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="messageConclusion" Type="Music.dao.IMessageConclusionTimeDao" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="42" Y="40.838" />
+        <Point X="39.938" Y="40.838" />
+        <Point X="39.938" Y="35.175" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="messageDao" Type="Music.dao.IMessageDao" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="42.25" Y="40" />
+        <Point X="42.25" Y="34.983" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="playListDao" Type="Music.dao.IPlayListDao" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="42.781" Y="40" />
+        <Point X="42.781" Y="38.015" />
+        <Point X="44.438" Y="38.015" />
+        <Point X="44.438" Y="35.175" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="playListSongDao" Type="Music.dao.IPlayListSongDao" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="43.438" Y="40" />
+        <Point X="43.438" Y="39.853" />
+        <Point X="46.625" Y="39.853" />
+        <Point X="46.625" Y="35.175" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="songDao" Type="Music.dao.ISongDao" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="43.438" Y="40" />
+        <Point X="43.438" Y="39.831" />
+        <Point X="48.938" Y="39.831" />
+        <Point X="48.938" Y="34.983" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="userDao" Type="Music.dao.IUserDao" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="43.438" Y="40" />
+        <Point X="43.438" Y="39.853" />
+        <Point X="51.188" Y="39.853" />
+        <Point X="51.188" Y="35.752" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="userMessageDao" Type="Music.dao.IUserMessageDao" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="43.438" Y="40" />
+        <Point X="43.438" Y="39.84" />
+        <Point X="53.438" Y="39.84" />
+        <Point X="53.438" Y="34.983" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>KAAIAAAAQAISAEAAAAAAAAAAAAJAAAQAQRQAIAIAwQA=</HashCode>
+      <FileName>dao\DaoFactory.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="commentDao" />
+      <Field Name="googleSongDao" />
+      <Field Name="messageConclusion" />
+      <Field Name="messageDao" />
+      <Field Name="playListDao" />
+      <Field Name="playListSongDao" />
+      <Field Name="songDao" />
+      <Field Name="userDao" />
+      <Field Name="userMessageDao" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Music.dao.impl.GoogleSongDao" BaseTypeListCollapsed="true">
+    <Position X="36" Y="35.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIIAACACQAAAABAQAAQCAAABAAAABABBBEAAE=</HashCode>
+      <FileName>dao\impl\GoogleSongDao.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Music.dao.impl.SqlCommentDao" BaseTypeListCollapsed="true">
+    <Position X="33.75" Y="35.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAQAAAAAAAAAAAgBAAAAEAAE=</HashCode>
+      <FileName>dao\impl\SqlCommentDao.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Music.dao.impl.SqlMessageConclusionTimeDao" BaseTypeListCollapsed="true">
+    <Position X="38.25" Y="35.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAQAAAAAAAAAAAgBAAAAEAAE=</HashCode>
+      <FileName>dao\impl\SqlMessageConclusionTimeDao.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Music.dao.impl.SqlMessageDao" BaseTypeListCollapsed="true">
+    <Position X="40.5" Y="35.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQgAAAAAAAAAAABAAAAEAAE=</HashCode>
+      <FileName>dao\impl\SqlMessageDao.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Music.dao.impl.SqlPlayListDao" BaseTypeListCollapsed="true">
+    <Position X="42.75" Y="35.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAQAAAAAAAAAAAgBAAAAEAAE=</HashCode>
+      <FileName>dao\impl\SqlPlayListDao.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Music.dao.impl.SqlPlayListSongDao" BaseTypeListCollapsed="true">
+    <Position X="45" Y="35.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAAQAAAAAAAAAAAAhAAAAEAAE=</HashCode>
+      <FileName>dao\impl\SqlPlayListSongDao.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Music.dao.impl.SqlSongDao" BaseTypeListCollapsed="true">
+    <Position X="47.25" Y="35.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAABAAAAEAAU=</HashCode>
+      <FileName>dao\impl\SqlSongDao.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Music.dao.impl.SqlUserDao" BaseTypeListCollapsed="true">
+    <Position X="49.5" Y="36.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIIAAAAIAAAAAQAAAAAAAAAAAABCAAAFAAE=</HashCode>
+      <FileName>dao\impl\SqlUserDao.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Music.dao.impl.SqlUserMessageDao" BaseTypeListCollapsed="true">
+    <Position X="51.75" Y="35.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAQAAAAAAAAAAAABAAAAEAAE=</HashCode>
+      <FileName>dao\impl\SqlUserMessageDao.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Music.dto.dto.Dialog" Collapsed="true">
+    <Position X="7.75" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEgAAAAABCAAAAAIAAQAAAAAAAAAA=</HashCode>
+      <FileName>dto\Dialog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Music.service.ServiceFactory">
+    <Position X="41.5" Y="25.25" Width="1.5" />
+    <AssociationLine Name="commentService" Type="Music.service.ICommentService" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="42.875" Y="25.25" />
+        <Point X="42.875" Y="24.83" />
+        <Point X="44.104" Y="24.83" Type="JumpStart" />
+        <Point X="44.271" Y="24.83" Type="JumpEnd" />
+        <Point X="45.51" Y="24.83" Type="JumpStart" />
+        <Point X="45.677" Y="24.83" Type="JumpEnd" />
+        <Point X="46.229" Y="24.83" Type="JumpStart" />
+        <Point X="46.396" Y="24.83" Type="JumpEnd" />
+        <Point X="48.042" Y="24.83" Type="JumpStart" />
+        <Point X="48.208" Y="24.83" Type="JumpEnd" />
+        <Point X="50.292" Y="24.83" Type="JumpStart" />
+        <Point X="50.458" Y="24.83" Type="JumpEnd" />
+        <Point X="51.688" Y="24.83" />
+        <Point X="51.688" Y="17.925" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="dialogService" Type="Music.service.IDialogService" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="42.875" Y="25.25" />
+        <Point X="42.875" Y="24.792" />
+        <Point X="44.104" Y="24.792" Type="JumpStart" />
+        <Point X="44.271" Y="24.792" Type="JumpEnd" />
+        <Point X="45.51" Y="24.792" Type="JumpStart" />
+        <Point X="45.677" Y="24.792" Type="JumpEnd" />
+        <Point X="46.229" Y="24.792" Type="JumpStart" />
+        <Point X="46.396" Y="24.792" Type="JumpEnd" />
+        <Point X="48.042" Y="24.792" Type="JumpStart" />
+        <Point X="48.208" Y="24.792" Type="JumpEnd" />
+        <Point X="50.292" Y="24.792" Type="JumpStart" />
+        <Point X="50.458" Y="24.792" Type="JumpEnd" />
+        <Point X="52.604" Y="24.792" Type="JumpStart" />
+        <Point X="52.771" Y="24.792" Type="JumpEnd" />
+        <Point X="54.188" Y="24.792" />
+        <Point X="54.188" Y="17.411" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="googleSongService" Type="Music.service.IGoogleSongService" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="41.625" Y="25.25" />
+        <Point X="41.625" Y="22.656" />
+        <Point X="39.646" Y="22.656" Type="JumpStart" />
+        <Point X="39.479" Y="22.656" Type="JumpEnd" />
+        <Point X="37.208" Y="22.656" Type="JumpStart" />
+        <Point X="37.042" Y="22.656" Type="JumpEnd" />
+        <Point X="35.083" Y="22.656" Type="JumpStart" />
+        <Point X="34.917" Y="22.656" Type="JumpEnd" />
+        <Point X="33.688" Y="22.656" />
+        <Point X="33.688" Y="17.925" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="messageConclusionTimeService" Type="Music.service.IMessageConclusionTimeService" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="41.625" Y="25.25" />
+        <Point X="41.625" Y="22.656" />
+        <Point X="39.646" Y="22.656" Type="JumpStart" />
+        <Point X="39.479" Y="22.656" Type="JumpEnd" />
+        <Point X="37.208" Y="22.656" Type="JumpStart" />
+        <Point X="37.042" Y="22.656" Type="JumpEnd" />
+        <Point X="35.938" Y="22.656" />
+        <Point X="35.938" Y="17.925" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="playListService" Type="Music.service.IPlayListService" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="41.75" Y="25.25" />
+        <Point X="41.75" Y="20.765" />
+        <Point X="40.438" Y="20.765" />
+        <Point X="40.438" Y="17.925" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="messageService" Type="Music.service.IMessageService" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="41.625" Y="25.25" />
+        <Point X="41.625" Y="20.765" />
+        <Point X="40.438" Y="20.765" />
+        <Point X="40.438" Y="18.175" />
+        <Point X="38.75" Y="18.175" />
+        <Point X="38.75" Y="17.733" />
+        <Point X="38.25" Y="17.733" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="playListSongService" Type="Music.service.IPlayListSongService" FixedToPoint="true">
+      <Path>
+        <Point X="42.688" Y="25.25" />
+        <Point X="42.688" Y="17.925" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="songService" Type="Music.service.ISongService" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="42.875" Y="25.25" />
+        <Point X="42.875" Y="21.069" />
+        <Point X="44.104" Y="21.069" Type="JumpStart" />
+        <Point X="44.271" Y="21.069" Type="JumpEnd" />
+        <Point X="45" Y="21.069" />
+        <Point X="45" Y="17.733" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="userMessageService" Type="Music.service.IUserMessageService" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="42.875" Y="25.25" />
+        <Point X="42.875" Y="21.109" />
+        <Point X="44.104" Y="21.109" Type="JumpStart" />
+        <Point X="44.271" Y="21.109" Type="JumpEnd" />
+        <Point X="45.51" Y="21.109" Type="JumpStart" />
+        <Point X="45.677" Y="21.109" Type="JumpEnd" />
+        <Point X="46.229" Y="21.109" Type="JumpStart" />
+        <Point X="46.396" Y="21.109" Type="JumpEnd" />
+        <Point X="47.188" Y="21.109" />
+        <Point X="47.188" Y="17.733" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="userService" Type="Music.service.IUserService" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="42.875" Y="25.25" />
+        <Point X="42.875" Y="21.044" />
+        <Point X="44.104" Y="21.044" Type="JumpStart" />
+        <Point X="44.271" Y="21.044" Type="JumpEnd" />
+        <Point X="45.51" Y="21.044" Type="JumpStart" />
+        <Point X="45.677" Y="21.044" Type="JumpEnd" />
+        <Point X="46.229" Y="21.044" Type="JumpStart" />
+        <Point X="46.396" Y="21.044" Type="JumpEnd" />
+        <Point X="49.438" Y="21.044" />
+        <Point X="49.438" Y="18.502" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>ECAEAAABABQAABCEAAAAKBAACAJAEAQAAAAACACACAA=</HashCode>
+      <FileName>service\ServiceFactory.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="commentService" />
+      <Field Name="dialogService" />
+      <Field Name="googleSongService" />
+      <Field Name="messageConclusionTimeService" />
+      <Field Name="playListService" />
+      <Field Name="messageService" />
+      <Field Name="playListSongService" />
+      <Field Name="songService" />
+      <Field Name="userMessageService" />
+      <Field Name="userService" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Music.service.impl.CommentService" BaseTypeListCollapsed="true">
+    <Position X="50" Y="18.25" Width="1.5" />
+    <AssociationLine Name="commentDao" Type="Music.dao.ICommentDao" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="50.375" Y="20.315" />
+        <Point X="50.375" Y="30.516" />
+        <Point X="50.177" Y="30.516" Type="JumpStart" />
+        <Point X="50.01" Y="30.516" Type="JumpEnd" />
+        <Point X="47.802" Y="30.516" Type="JumpStart" />
+        <Point X="47.635" Y="30.516" Type="JumpEnd" />
+        <Point X="45.677" Y="30.516" Type="JumpStart" />
+        <Point X="45.51" Y="30.516" Type="JumpEnd" />
+        <Point X="43.458" Y="30.516" Type="JumpStart" />
+        <Point X="43.292" Y="30.516" Type="JumpEnd" />
+        <Point X="41.177" Y="30.516" Type="JumpStart" />
+        <Point X="41.01" Y="30.516" Type="JumpEnd" />
+        <Point X="38.927" Y="30.516" Type="JumpStart" />
+        <Point X="38.76" Y="30.516" Type="JumpEnd" />
+        <Point X="36.771" Y="30.516" Type="JumpStart" />
+        <Point X="36.604" Y="30.516" Type="JumpEnd" />
+        <Point X="34.75" Y="30.516" />
+        <Point X="34.75" Y="33.75" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAIAAAAAAAAAAQAAAAAAAAAAAgBAAAAEAAE=</HashCode>
+      <FileName>service\impl\CommentService.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="commentDao" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Music.service.impl.DialogService" BaseTypeListCollapsed="true">
+    <Position X="52.25" Y="18.25" Width="1.5" />
+    <AssociationLine Name="messageDao" Type="Music.dao.IMessageDao" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="52.688" Y="20.382" />
+        <Point X="52.688" Y="30.877" />
+        <Point X="50.177" Y="30.877" Type="JumpStart" />
+        <Point X="50.01" Y="30.877" Type="JumpEnd" />
+        <Point X="47.802" Y="30.877" Type="JumpStart" />
+        <Point X="47.635" Y="30.877" Type="JumpEnd" />
+        <Point X="45.677" Y="30.877" Type="JumpStart" />
+        <Point X="45.51" Y="30.877" Type="JumpEnd" />
+        <Point X="43.458" Y="30.877" Type="JumpStart" />
+        <Point X="43.292" Y="30.877" Type="JumpEnd" />
+        <Point X="41.703" Y="30.877" />
+        <Point X="41.703" Y="33.75" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAQAAAAAAAAAAgAAAAAAIAAEAAAAQAAAAAAAA=</HashCode>
+      <FileName>service\impl\DialogService.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="messageDao" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Music.service.impl.GoogleSongService" BaseTypeListCollapsed="true">
+    <Position X="32" Y="18.5" Width="1.5" />
+    <AssociationLine Name="songGoogleDao" Type="Music.dao.IGoogleSongDao" ManuallyRouted="true">
+      <Path>
+        <Point X="32.75" Y="20.565" />
+        <Point X="32.75" Y="29.53" />
+        <Point X="36.688" Y="29.53" />
+        <Point X="36.688" Y="33.75" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAQAAQAAAAAAAAABABAAEAAE=</HashCode>
+      <FileName>service\impl\GoogleSongService.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="songGoogleDao" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Music.service.impl.MessageConclusionTimeService" BaseTypeListCollapsed="true">
+    <Position X="34.25" Y="18.5" Width="1.5" />
+    <AssociationLine Name="conclusionTimeDao" Type="Music.dao.IMessageConclusionTimeDao" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="35" Y="20.565" />
+        <Point X="35" Y="29.303" />
+        <Point X="37.042" Y="29.303" Type="JumpStart" />
+        <Point X="37.208" Y="29.303" Type="JumpEnd" />
+        <Point X="38.844" Y="29.303" />
+        <Point X="38.844" Y="33.75" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAgAAQAAAAAAAAAAAgBAAAAEAAE=</HashCode>
+      <FileName>service\impl\MessageConclusionTimeService.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="conclusionTimeDao" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Music.service.impl.MessageService" BaseTypeListCollapsed="true">
+    <Position X="36.5" Y="18.25" Width="1.5" />
+    <AssociationLine Name="messageDao" Type="Music.dao.IMessageDao" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="37.125" Y="20.123" />
+        <Point X="37.125" Y="29.753" />
+        <Point X="38.76" Y="29.753" Type="JumpStart" />
+        <Point X="38.927" Y="29.753" Type="JumpEnd" />
+        <Point X="41.094" Y="29.753" />
+        <Point X="41.094" Y="33.75" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQgAAAAAAAAAAARAAAAEAAE=</HashCode>
+      <FileName>service\impl\MessageService.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="messageDao" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Music.service.impl.PlayListService" BaseTypeListCollapsed="true">
+    <Position X="38.75" Y="18.5" Width="1.5" />
+    <AssociationLine Name="playListDao" Type="Music.dao.IPlayListDao" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="39.562" Y="20.565" />
+        <Point X="39.562" Y="29.129" />
+        <Point X="43.375" Y="29.129" />
+        <Point X="43.375" Y="33.75" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAhBAAAAEAAE=</HashCode>
+      <FileName>service\impl\PlayListService.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="playListDao" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Music.service.impl.PlayListSongService" BaseTypeListCollapsed="true">
+    <Position X="41" Y="18.5" Width="1.5" />
+    <AssociationLine Name="playListSongDao" Type="Music.dao.IPlayListSongDao" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="42.125" Y="20.565" />
+        <Point X="42.125" Y="20.815" />
+        <Point X="42.604" Y="20.815" Type="JumpStart" />
+        <Point X="42.771" Y="20.815" Type="JumpEnd" />
+        <Point X="44.104" Y="20.815" Type="JumpStart" />
+        <Point X="44.271" Y="20.815" Type="JumpEnd" />
+        <Point X="44.917" Y="20.815" Type="JumpStart" />
+        <Point X="45.083" Y="20.815" Type="JumpEnd" />
+        <Point X="45.594" Y="20.815" />
+        <Point X="45.594" Y="33.75" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAQAAAAAQAAAAAAAAAAAAhAAAAEAAE=</HashCode>
+      <FileName>service\impl\PlayListSongService.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="playListSongDao" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Music.service.impl.SongService" BaseTypeListCollapsed="true">
+    <Position X="43.25" Y="18.25" Width="1.5" />
+    <AssociationLine Name="songDao" Type="Music.dao.ISongDao" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="44.188" Y="20.123" />
+        <Point X="44.188" Y="29.557" />
+        <Point X="45.51" Y="29.557" Type="JumpStart" />
+        <Point X="45.677" Y="29.557" Type="JumpEnd" />
+        <Point X="46.229" Y="29.557" Type="JumpStart" />
+        <Point X="46.396" Y="29.557" Type="JumpEnd" />
+        <Point X="47.719" Y="29.557" />
+        <Point X="47.719" Y="33.75" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAQAAAAAAAAAAAABAAAAEAAU=</HashCode>
+      <FileName>service\impl\SongService.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="songDao" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Music.service.impl.UserMessageService" BaseTypeListCollapsed="true">
+    <Position X="45.5" Y="18.25" Width="1.5" />
+    <AssociationLine Name="userMessageDao" Type="Music.dao.IUserMessageDao" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="46.312" Y="20.123" />
+        <Point X="46.312" Y="30.307" />
+        <Point X="47.635" Y="30.307" Type="JumpStart" />
+        <Point X="47.802" Y="30.307" Type="JumpEnd" />
+        <Point X="50.01" Y="30.307" Type="JumpStart" />
+        <Point X="50.177" Y="30.307" Type="JumpEnd" />
+        <Point X="50.292" Y="30.307" Type="JumpStart" />
+        <Point X="50.458" Y="30.307" Type="JumpEnd" />
+        <Point X="52.604" Y="30.307" Type="JumpStart" />
+        <Point X="52.771" Y="30.307" Type="JumpEnd" />
+        <Point X="53.094" Y="30.307" />
+        <Point X="53.094" Y="33.75" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAQAAAAAAAAAAAABAAAIEAAE=</HashCode>
+      <FileName>service\impl\UserMessageService.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="userMessageDao" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Music.service.impl.UserService" BaseTypeListCollapsed="true">
+    <Position X="47.5" Y="19" Width="1.5" />
+    <AssociationLine Name="userDao" Type="Music.dao.IUserDao" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="48.125" Y="23.247" />
+        <Point X="48.125" Y="29.497" />
+        <Point X="50.094" Y="29.497" />
+        <Point X="50.094" Y="33.75" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>ARAAAAAAAIIAAMAaAAAAAQAAAAIAAAAAAABCAAAFAAE=</HashCode>
+      <FileName>service\impl\UserService.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="userDao" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Music.util.LoginValidation" Collapsed="true">
+    <Position X="7.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEIAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>util\LoginValidation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Music.util.PlayListValidation" Collapsed="true">
+    <Position X="10.75" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEIAAAABAIAACAAAAAAAAIAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>util\PlayListValidation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Music.util.RegistrateValidation" Collapsed="true">
+    <Position X="9.25" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEIAAAABAAAAAAAAAAAAAAAACAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>util\RegistrateValidation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Music.util.SearchMusic" Collapsed="true">
+    <Position X="10.75" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAKAACQAAABFACAABAgAAAAAgAAAAAQAAAAAAABAAEA=</HashCode>
+      <FileName>util\SearchMusic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Music.util.SongValidation" Collapsed="true">
+    <Position X="9.25" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IBAAEKQAAABAAAAICAAAQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>util\SongValidation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Music.util.TextCommand" Collapsed="true">
+    <Position X="10.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YEGDBgABIAUACAAAAgIFEEABgBAEAYBCQBCAoAAAASQ=</HashCode>
+      <FileName>util\TextCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Music.view.AdminWindow" BaseTypeListCollapsed="true">
+    <Position X="17.5" Y="6" Width="1.5" />
+    <AssociationLine Name="controller" Type="Music.controller.Controller" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="18.188" Y="6" />
+        <Point X="18.188" Y="5.62" />
+        <Point X="16.25" Y="5.62" />
+        <Point X="16.25" Y="4.353" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAEADCANAAICAIAAQYAACAABAAEKIAQQAAUg=</HashCode>
+      <FileName>view\AdminWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="controller" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Music.view.CasualWindow" BaseTypeListCollapsed="true">
+    <Position X="15.75" Y="6" Width="1.5" />
+    <AssociationLine Name="controller" Type="Music.controller.Controller" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="16.219" Y="6" />
+        <Point X="16.219" Y="5.625" />
+        <Point X="16.25" Y="5.625" />
+        <Point X="16.25" Y="4.353" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAIAAAEAAEADCIEAAACAIAEQUAAAAABAAGCAAAQAAEg=</HashCode>
+      <FileName>view\CasualWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="controller" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Music.view.CreatePlayListWindow" BaseTypeListCollapsed="true">
+    <Position X="21" Y="6" Width="1.5" />
+    <AssociationLine Name="controller" Type="Music.controller.Controller" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="21.625" Y="6" />
+        <Point X="21.625" Y="5.625" />
+        <Point X="16.25" Y="5.625" />
+        <Point X="16.25" Y="4.353" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAUACAAAAAAAAAAAEAAAAABAAAAEBQA=</HashCode>
+      <FileName>view\CreatePlayListWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="controller" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Music.view.CreateSongWindow" BaseTypeListCollapsed="true">
+    <Position X="24.5" Y="6" Width="1.5" />
+    <AssociationLine Name="controller" Type="Music.controller.Controller" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="25.25" Y="6" />
+        <Point X="25.25" Y="5.88" />
+        <Point X="21.708" Y="5.88" Type="JumpStart" />
+        <Point X="21.542" Y="5.88" Type="JumpEnd" />
+        <Point X="18.271" Y="5.88" Type="JumpStart" />
+        <Point X="18.104" Y="5.88" Type="JumpEnd" />
+        <Point X="16.25" Y="5.88" />
+        <Point X="16.25" Y="4.353" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>CAAAAAAIAAAAAAEAIAAAAAggIAAIAAAIABBEAgAAAUA=</HashCode>
+      <FileName>view\CreateSongWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="controller" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Music.view.DialogsWindow" BaseTypeListCollapsed="true">
+    <Position X="22.75" Y="6" Width="1.5" />
+    <AssociationLine Name="controller" Type="Music.controller.Controller" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="23.5" Y="6" />
+        <Point X="23.5" Y="5.9" />
+        <Point X="21.708" Y="5.9" Type="JumpStart" />
+        <Point X="21.542" Y="5.9" Type="JumpEnd" />
+        <Point X="18.271" Y="5.9" Type="JumpStart" />
+        <Point X="18.104" Y="5.9" Type="JumpEnd" />
+        <Point X="16.25" Y="5.9" />
+        <Point X="16.25" Y="4.353" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAgBgAAAAAAAAAEAEAEAAIAwIAAAAAEAAAABAQAAAQA=</HashCode>
+      <FileName>view\DialogsWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="controller" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Music.view.RegisterUserWindow" BaseTypeListCollapsed="true">
+    <Position X="14" Y="6" Width="1.5" />
+    <AssociationLine Name="controller" Type="Music.controller.Controller" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="14.094" Y="6" />
+        <Point X="14.094" Y="5.602" />
+        <Point X="16.25" Y="5.602" />
+        <Point X="16.25" Y="4.353" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAIBAAEQAEArCIEAAACAIQESUAAIAABAAmCAAAQEAUg=</HashCode>
+      <FileName>view\RegisterUserWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="controller" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Music.view.Registration" BaseTypeListCollapsed="true">
+    <Position X="12.25" Y="6" Width="1.5" />
+    <AssociationLine Name="controller" Type="Music.controller.Controller" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="13" Y="6" />
+        <Point X="13" Y="5.625" />
+        <Point X="16.25" Y="5.625" />
+        <Point X="16.25" Y="4.353" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAACAECAgAAIAAgAAAGAAAAAAAAAgAAAEA=</HashCode>
+      <FileName>view\Registration.xaml.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="controller" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Music.view.Welcome" BaseTypeListCollapsed="true">
+    <Position X="19.25" Y="6" Width="1.5" />
+    <AssociationLine Name="controller" Type="Music.controller.Controller" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="19.875" Y="6" />
+        <Point X="19.875" Y="5.856" />
+        <Point X="18.271" Y="5.856" Type="JumpStart" />
+        <Point X="18.104" Y="5.856" Type="JumpEnd" />
+        <Point X="16.25" Y="5.856" />
+        <Point X="16.25" Y="4.353" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAGAECAAAAIAAgAABAAAAAAAAAAwAAEAA=</HashCode>
+      <FileName>view\Welcome.xaml.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="controller" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Interface Name="Music.controller.ICommand">
+    <Position X="39.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>controller\ICommand.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Music.dao.ICommentDao">
+    <Position X="34" Y="33.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>dao\ICommentDao.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Music.dao.Dao&lt;T&gt;" Collapsed="true">
+    <Position X="43" Y="32.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAABAAAAEAAE=</HashCode>
+      <FileName>dao\IDao.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Music.dao.IGoogleSongDao">
+    <Position X="36.25" Y="33.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>dao\IGoogleSongDao.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Music.dao.IMessageConclusionTimeDao">
+    <Position X="38.5" Y="33.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>dao\IMessageConclusionTimeDao.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Music.dao.IMessageDao">
+    <Position X="40.75" Y="33.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>dao\IMessageDao.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Music.dao.IPlayListDao">
+    <Position X="43" Y="33.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>dao\IPlayListDao.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Music.dao.IPlayListSongDao">
+    <Position X="45.25" Y="33.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>dao\IPlayListSongDao.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Music.dao.ISongDao">
+    <Position X="47.5" Y="33.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>dao\ISongDao.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Music.dao.IUserDao">
+    <Position X="49.75" Y="33.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIIAAAAIAAAAAAAAAAAAAAAAAAACAAABAAA=</HashCode>
+      <FileName>dao\IUserDao.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Music.dao.IUserMessageDao">
+    <Position X="52" Y="33.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>dao\IUserMessageDao.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Music.service.ICommentService">
+    <Position X="50.25" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>service\ICommentService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Music.service.IDialogService">
+    <Position X="52.75" Y="16.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>service\IDialogService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Music.service.IGoogleSongService">
+    <Position X="32.25" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>service\IGoogleSongService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Music.service.IMessageConclusionTimeService">
+    <Position X="34.5" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>service\IMessageConclusionTimeService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Music.service.IMessageService">
+    <Position X="36.75" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>service\IMessageService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Music.service.IPlayListService">
+    <Position X="39" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>service\IPlayListService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Music.service.IPlayListSongService">
+    <Position X="41.25" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>service\IPlayListSongService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Music.service.Service&lt;T&gt;" Collapsed="true">
+    <Position X="41" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAABAAAAEAAE=</HashCode>
+      <FileName>service\IService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Music.service.ISongService">
+    <Position X="43.5" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>service\ISongService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Music.service.IUserMessageService">
+    <Position X="45.75" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>service\IUserMessageService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Music.service.IUserService">
+    <Position X="48" Y="16.5" Width="1.5" />
+    <InheritanceLine Type="Music.service.Service&lt;T&gt;" FixedFromPoint="true">
+      <Path>
+        <Point X="41.75" Y="15.812" />
+        <Point X="41.75" Y="16.125" />
+        <Point X="42.604" Y="16.125" Type="JumpStart" />
+        <Point X="42.771" Y="16.125" Type="JumpEnd" />
+        <Point X="44.854" Y="16.125" Type="JumpStart" />
+        <Point X="45.021" Y="16.125" Type="JumpEnd" />
+        <Point X="47.042" Y="16.125" Type="JumpStart" />
+        <Point X="47.208" Y="16.125" Type="JumpEnd" />
+        <Point X="48.75" Y="16.125" />
+        <Point X="48.75" Y="16.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIIAAAAIAAAAAAAAAAAAAAAAAAACAAABAAA=</HashCode>
+      <FileName>service\IUserService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Music.controller.CommandName" Collapsed="true">
+    <Position X="7.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YEGDBgABIAUACAAAAgIFEEABgBAEAYBCQBCAoAAAASQ=</HashCode>
+      <FileName>controller\CommandName.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Music.dto.Role" Collapsed="true">
+    <Position X="9.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAABAAAAA=</HashCode>
+      <FileName>dto\Role.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
